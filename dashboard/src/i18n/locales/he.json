@@ -226,8 +226,14 @@
       "start": "הפעלה",
       "stop": "עצירה",
       "reconnect": "התחברות מחדש",
-      "delete": "מחיקה",
-      "killStuck": "Kill Stuck"
+      "killStuck": "סיום תקוע",
+      "delete": "מחיקה"
+    },
+    "forceKill": {
+      "successTitle": "ה-Session נסגר",
+      "successDesc": "תהליכי Chromium יתומים הוסרו עבור \"{{name}}\"",
+      "errorTitle": "סגירה נכשלה",
+      "errorDefault": "נכשל לסיים תהליכים יתומים"
     },
     "toasts": {
       "readyTitle": "ה-Session מוכן",
@@ -242,16 +248,6 @@
       "sessionId": "מזהה Session",
       "lastActive": "פעילות אחרונה",
       "error": "שגיאה"
-    },
-    "forceKill": {
-      "title": "Kill Stuck Session",
-      "message": "Are you sure you want to force-kill session \"{{name}}\"?",
-      "warning": "This will forcefully terminate the WhatsApp browser process. The session may need to be re-scanned on restart.",
-      "confirm": "Kill Session",
-      "successTitle": "Session Killed",
-      "success": "Session has been force-killed. You can restart it now.",
-      "failedTitle": "Force-Kill Failed",
-      "failed": "Failed to force-kill the session."
     }
   },
   "webhooks": {
